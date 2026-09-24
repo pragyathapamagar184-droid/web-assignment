@@ -4,7 +4,21 @@
         My first web page
     </title>
     <h1>Hello! My name is Thapa Magar Pragya </h1>
+      <h2>My Interests & Technologies</h2>
+  <ul>
+<li>Complete one small coding exercise or task</li>
+<li>Review notes from the last class or lesson</li>
+<li>Practice HTML5 coding for 15 minutes</li>
+  </ul>
+
+  <h2>My Daily Routine / Top 3 Goals</h2>
+  <ol>
+    <li>Review and organize daily study notes</li>
+    <li>Share a helpful tip or resource with a classmate</li>
+    <li>Spend 20 minutes working on a current assignment</li>
+  </ol>
     <body>
+        <p>Visit my university: <a href="https://www.stu.ac.kr" target="_blank">Seoul Theological University</a></p>
         <p>I am from Nepal. I am a student of department of Computer Engineering  at Seoul Theological University.</p>
         <p>I enjoy learning coding and programming.</p>
 
@@ -15,3 +29,30 @@
         <p>I was born in sindhupalchok, Nepal which is located in the central part of nepal within Bagmati Province, sindhupalchok borders China(Tibet) to the north.this district is famous for its mountains, forests, rivers, lakes, and vallys. Some notable places like: Panch Pokhari, Bhairav Kunda, Jugal Himal, Helambu, Tatopani, Bhotekoshi River etc.</p>
     </body>
 </html>
+<!-- Top navigation link -->
+<p><a href="#guestbook">Jump to Guestbook Section ↓</a></p>
+
+<!-- Destination section further down the page -->
+<h2 id="guestbook">Guestbook</h2>
+  <hr>
+  <h2 id="guestbook">Leave a Message (Guestbook)</h2>
+  <form>
+    <p>
+      <label for="visitor-name">Your Name:</label><br>
+      <input type="text" id="visitor-name" name="visitor-name" placeholder="e.g., Alex Kim" required>
+    </p>
+
+    <p>
+      <label for="visitor-email">Your Email:</label><br>
+      <input type="email" id="visitor-email" name="visitor-email" placeholder="name@example.com" required>
+    </p>
+
+    <p>
+      <label for="visitor-message">Your Message:</label><br>
+      <textarea id="visitor-message" name="visitor-message" rows="4" cols="45" placeholder="Share your greeting, feedback, or thoughts..."></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Submit Message</button>
+    </p>
+  </form>
